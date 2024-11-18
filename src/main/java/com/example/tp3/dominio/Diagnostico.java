@@ -19,6 +19,10 @@ public class Diagnostico {
         return nombre;
     }
 
+    public List<Evolucion> getEvoluciones() {
+        return evoluciones;
+    }
+
     public Evolucion buscarEvolucion(String informeOriginal) {
         return evoluciones
                 .stream()
